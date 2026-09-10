@@ -93,18 +93,4 @@ Also here: [AI Strategy Backtester](https://github.com/soumikbelel3-commits/ai-s
 
 ---
 
-## Activity
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=soumikbelel3-commits&show_icons=true&hide_border=true&bg_color=00000000&title_color=B4531B&icon_color=B4531B&text_color=3B4048#gh-light-mode-only" alt="GitHub stats" height="150">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soumikbelel3-commits&layout=compact&hide_border=true&bg_color=00000000&title_color=B4531B&text_color=3B4048#gh-light-mode-only" alt="Top languages" height="150">
-</p>
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=soumikbelel3-commits&show_icons=true&hide_border=true&bg_color=00000000&title_color=E08D4E&icon_color=E08D4E&text_color=98A1B0#gh-dark-mode-only" alt="GitHub stats" height="150">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soumikbelel3-commits&layout=compact&hide_border=true&bg_color=00000000&title_color=E08D4E&text_color=98A1B0#gh-dark-mode-only" alt="Top languages" height="150">
-</p>
-
----
-
 <sub>Kolkata, India · [linkedin.com/in/soumik-belel](https://www.linkedin.com/in/soumik-belel) · [@SoumikBelel](https://x.com/SoumikBelel) · [soumikbelel3@gmail.com](mailto:soumikbelel3@gmail.com)</sub>
