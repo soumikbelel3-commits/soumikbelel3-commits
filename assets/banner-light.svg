@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 290" width="1200" height="290" role="img" aria-label="Soumik Belel — financial market infrastructure">
+  <rect x="0" y="0" width="1200" height="290" fill="#FBFAF8"/>
+  <rect x="0.5" y="0.5" width="1199" height="289" fill="none" stroke="#D8D4CC" stroke-width="1"/>
+  <rect x="0" y="0" width="1200" height="3" fill="#B4531B"/>
+
+  <g>
+    <line x1="812" y1="62" x2="812" y2="214" stroke="#12141A" stroke-width="1" opacity="0.055"/>
+    <line x1="852" y1="62" x2="852" y2="214" stroke="#12141A" stroke-width="1" opacity="0.055"/>
+    <line x1="892" y1="62" x2="892" y2="214" stroke="#12141A" stroke-width="1" opacity="0.055"/>
+    <line x1="932" y1="62" x2="932" y2="214" stroke="#12141A" stroke-width="1" opacity="0.055"/>
+    <line x1="972" y1="62" x2="972" y2="214" stroke="#12141A" stroke-width="1" opacity="0.055"/>
+    <line x1="1012" y1="62" x2="1012" y2="214" stroke="#12141A" stroke-width="1" opacity="0.055"/>
+    <line x1="1052" y1="62" x2="1052" y2="214" stroke="#12141A" stroke-width="1" opacity="0.055"/>
+    <line x1="1092" y1="62" x2="1092" y2="214" stroke="#12141A" stroke-width="1" opacity="0.055"/>
+    <line x1="772" y1="100" x2="1128" y2="100" stroke="#12141A" stroke-width="1" opacity="0.055"/>
+    <line x1="772" y1="138" x2="1128" y2="138" stroke="#12141A" stroke-width="1" opacity="0.055"/>
+    <line x1="772" y1="176" x2="1128" y2="176" stroke="#12141A" stroke-width="1" opacity="0.055"/>
+    <path d="M772,214 L772,196 L812,183 L852,191 L892,163 L932,172 L972,134 L1012,147 L1052,112 L1092,98 L1128,70 L1128,214 Z" fill="#B4531B" opacity="0.07"/>
+    <polyline points="772,196 812,183 852,191 892,163 932,172 972,134 1012,147 1052,112 1092,98 1128,70" fill="none" stroke="#B4531B" stroke-width="2"
+              stroke-linejoin="round" stroke-linecap="round" opacity="0.85"/>
+    <circle cx="1128" cy="70" r="2.6" fill="#B4531B" opacity="0.9"/>
+  </g>
+
+  <text x="72" y="84" font-family="ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" letter-spacing="3.4"
+        fill="#5B6270">FOUNDER, OMNI TERMINAL &#183; KOLKATA, INDIA</text>
+
+  <text x="70" y="158" font-family="Georgia,'Iowan Old Style','Times New Roman',Times,serif" font-size="64" fill="#12141A"
+        letter-spacing="-0.5">Soumik Belel</text>
+
+  <line x1="72" y1="188" x2="640" y2="188" stroke="#D8D4CC" stroke-width="1"/>
+
+  <text x="72" y="220" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" fill="#12141A" opacity="0.82">
+    I build financial market infrastructure &#8212; data pipelines, quant research, terminals.
+  </text>
+
+  <text x="72" y="250" font-family="ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" letter-spacing="2.6"
+        fill="#B4531B">NSE &#183; BSE &#183; F&amp;O &#183; MARKET DATA &#183; QUANTITATIVE RESEARCH</text>
+</svg>
