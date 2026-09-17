@@ -1,18 +1,28 @@
 <picture>
-
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img alt="Soumik Belel — I build financial market infrastructure" src="./assets/banner-light.svg">
+  <img alt="Soumik Belel — data analyst becoming a data scientist" src="./assets/banner-light.svg">
 </picture>
 
-I'm a data scientist and a solo founder. I build **Omni Terminal** — a research and analytics
-terminal for Indian equity and derivatives markets — end to end, from market-data ingestion and
-quantitative models through to the API and the interface.
+I'm a data analyst growing into data science. I take a messy dataset and a business question and
+work through the whole analysis: SQL and Python pipelines, cleaning, EDA, statistics,
+machine-learning models, and dashboards people can make decisions from.
 
-Everything on this profile points in the same direction: taking raw market data and turning it
-into something a trader can actually reason with.
+Financial market data is the domain I know best. I'm putting all of it to work in
+**Omni Terminal**, the market-analytics platform I'm building for Indian traders.
 
-**[LinkedIn](https://www.linkedin.com/in/soumik-belel)** · **[X](https://x.com/SoumikBelel)** · **[Email](mailto:soumikbelel3@gmail.com)** · **[Omni Terminal ↗](https://omni-terminal-nu.vercel.app)**
+**[LinkedIn](https://www.linkedin.com/in/soumik-belel)** · **[X](https://x.com/SoumikBelel)** · **[Email](mailto:soumikbelel3@gmail.com)**
+
+> **Open to remote Data Analyst / Data Scientist roles**, working from Kolkata. I'm strongest with financial data, and I'm just as comfortable with general analytics and ML work. Reach me at [soumikbelel3@gmail.com](mailto:soumikbelel3@gmail.com).
+
+---
+
+## Data I've worked with
+
+|  |  |  |
+| :--- | :--- | :--- |
+| **5.8M** US domestic flights | **1.2M+** crypto perpetual-futures trades | **150K+** IPL ball-by-ball deliveries |
+| **10K** bank customers | **10K+** global pharma shipments | **5K** shipments scored for disruption risk |
 
 ---
 
@@ -20,62 +30,64 @@ into something a trader can actually reason with.
 
 |  |  |
 | :--- | :--- |
-| **Building** | **Omni Terminal** — EOD-first NSE/BSE data pipeline, options-chain and open-interest analytics, factor scoring, screening and backtesting. Core modules are built; I'm hardening the data layer and rebuilding the front end in Next.js. |
-| **Learning** | Next.js App Router and SSR for public market pages · CFA Level 1–3 material, for the concepts rather than the charter · distribution and growth. |
+| **Learning** | Machine learning: model selection, validation and explainability · statistics for inference · data engineering (pipelines, SQL at scale) · CFA Level 1–3 material, for the concepts rather than the charter. |
+| **Building** | **Omni Terminal**: an end-of-day NSE/BSE data pipeline, options-chain and open-interest analytics, factor scoring, screening and backtesting. |
 | **Writing** | Daily markets and finance content as **The Architect** (English) and **Baniyon Ka Guruji** (Hindi/Hinglish). |
-| **Reading** | Anything on market microstructure, factor investing, and how small teams ship infrastructure. |
-
-> **Open to remote Data Analyst / Data Scientist roles**, working from Kolkata. Financial data is where I'm sharpest, but I'm just as happy on general analytics and ML work — [soumikbelel3@gmail.com](mailto:soumikbelel3@gmail.com).
 
 ---
 
-## The thesis
+## How I work
 
-Indian retail traders have no shortage of charts. What they don't have is context — the flows,
-the positioning, the option-chain structure and the historical base rates that make a chart mean
-something. Institutions pay lakhs a year for that context. That gap is what I'm building into.
-
-The constraint I've set myself: the terminal explains the market, it never tells anyone what to
-buy. Research infrastructure, not tips.
+Every project starts with a question and ends with a decision. In between, I clean and check the
+data before I trust it, look for the simplest explanation first, and validate models on data they
+haven't seen. I also report results that disappoint: one of my models below predicts next-day
+direction at roughly coin-flip accuracy, and that result is in the write-up.
 
 ---
 
 ## Selected work
 
-### Markets & quantitative
+### Machine learning & data science
 
-| Project | What it does | Stack |
+| Project | Question → result | Stack |
 | :--- | :--- | :--- |
-| **Omni Terminal** — [live ↗](https://omni-terminal-nu.vercel.app) | Research and analytics terminal for NSE/BSE. Multi-asset pre-session analysis, custom charting, screening, backtesting, and an AI research layer. | FastAPI · React · TimescaleDB · Redis · VectorBT |
-| **[Gold Pre-Session Dashboard](https://github.com/soumikbelel3-commits/gold-trading-execution)** | Institutional-style pre-session workspace for gold: composite alpha signals, multi-timeframe technicals, and macro scoring in a Bloomberg-inspired UI. | Python · pandas |
-| **[TCS Quant Trading Guide](https://github.com/soumikbelel3-commits/TCS-Quant-Trading-Guide)** | A full quant pipeline worked end to end on a single name — data collection, EDA, indicators, strategy backtesting, ML prediction, risk management, portfolio optimisation. | Python · pandas · scikit-learn |
-| **[Trader Behaviour & Performance](https://github.com/soumikbelel3-commits/-trader-behavior-and-performance)** | Connects Fear/Greed market sentiment to behavioural segments and realised trading performance. | Python · pandas |
+| **[European Bank Churn](https://github.com/soumikbelel3-commits/european-bank-churn)** | Which customers will leave, and why? Compared 5 classifiers on 10K customers; Gradient Boosting was the champion (ROC-AUC 0.857, best F1). Explained with SHAP and served through a what-if risk simulator. | Python · scikit-learn · XGBoost · SHAP · Streamlit |
+| **[Global Supply Chain Risk](https://github.com/soumikbelel3-commits/Global_supply_chain_risk_2026-)** | Can shipment disruption be predicted? Random Forest reached **AUC 0.817** on 5,000 shipments. Lead time, weather and geopolitical risk carry 42% of the model's importance. | Python · SQL · scikit-learn |
+| **[Instructor Effectiveness Modeling](https://github.com/soumikbelel3-commits/Instructor-Effectiveness-Modeling)** | How do you measure effectiveness when there's no ground-truth label? Built a composite score across 2,000 batches and 120 instructors, then trained tier classifiers with stratified 5-fold CV. | Python · scikit-learn |
+| **[Shopper Spectrum](https://github.com/soumikbelel3-commits/shopper-spectrum)** | Customer segmentation using RFM and K-Means (4 segments), plus an item-based collaborative-filtering recommender, packaged as an app. | Python · scikit-learn · Streamlit |
+| **[Real Estate Investment Advisor](https://github.com/soumikbelel3-commits/real-estate-price-prediction)** | Two models: a classifier that flags good investments and a regressor that forecasts 5-year prices, with experiments tracked in MLflow. | Python · XGBoost · MLflow · Streamlit |
 
-### Data science & analytics
+### Analytics & BI
 
-| Project | What it does | Stack |
+| Project | Question → result | Stack |
 | :--- | :--- | :--- |
-| **[European Bank Churn](https://github.com/soumikbelel3-commits/european-bank-churn)** | Customer-attrition prediction with key-driver diagnosis and retention strategies that follow from the model, not around it. | Python · scikit-learn |
-| **[Global Supply Chain Risk](https://github.com/soumikbelel3-commits/Global_supply_chain_risk_2026-)** | Disruption-exposure mapping across regions and shipping lanes, delivered as interactive dashboards. | Python · Power BI |
-| **[Retail Sales & Inventory Intelligence](https://github.com/soumikbelel3-commits/retail-sales-inventory-intelligence)** | An intelligence layer over retail operations: sales trends, stock-out risk, replenishment cues. | Python · SQL · JavaScript |
-| **[Superstore Sales Dashboard](https://github.com/soumikbelel3-commits/Superstore-sale-dashboard)** | Category, regional and margin clarity from a Python/SQL pipeline into Power BI. | Python · SQL · Power BI |
-| **[Instructor Effectiveness Modeling](https://github.com/soumikbelel3-commits/Instructor-Effectiveness-Modeling)** | Modelling what actually drives instructor outcomes in an EdTech setting. | Python · Jupyter |
+| **[US Airline Performance](https://github.com/soumikbelel3-commits/us-airline-performance-analysis)** | What drives delays across 5.8M flights? Built a chunked SQL ingestion pipeline and pre-aggregated summary tables, which cut dashboard queries from **28 s to under 10 ms**. | Python · SQL · SQLite · Streamlit |
+| **[Superstore Sales Analytics](https://github.com/soumikbelel3-commits/Superstore-sale-dashboard)** | Where is profit leaking? Across $2.26M of revenue, furniture runs at a 6% margin against 18% for technology. Identified **~$460K/yr** in revenue opportunities. | Python · SQL · Power BI |
+| **[Retail Sales & Inventory Intelligence](https://github.com/soumikbelel3-commits/retail-sales-inventory-intelligence)** | Nine-table relational model with a Python ETL step, 7 reusable SQL views, RFM segmentation and an interactive web dashboard. | Python · SQL · Chart.js |
+| **[FedEx Supply Chain EDA](https://github.com/soumikbelel3-commits/Fed-Ex-Supply-Chain)** | 10,324 shipments to 40+ countries: 88.5% arrive on time, and ocean freight is late 17.5% of the time against 9.6% for air. Includes 2 Power BI dashboards. | Python · Power BI |
+| **[IPL Data Analysis](https://github.com/soumikbelel3-commits/IPL-Data-Analysis)** | 150K+ deliveries turned into a 3-page Power BI report with a relational data model and DAX measures. | Python · Power BI · DAX |
+| **[Cricbuzz Live Stats](https://github.com/soumikbelel3-commits/Cricbuzz_livestats)** | Cricket stats app with a SQL analytics layer and admin CRUD. | Python · SQL · Streamlit |
 
-### Products
+### Financial & quantitative data
 
-| Project | What it does | Stack |
+| Project | Question → result | Stack |
 | :--- | :--- | :--- |
-| **[AI Resume Analyzer](https://github.com/soumikbelel3-commits/ai-resume-analyzer)** | ATS scoring, job-match intelligence, and a Gemini-powered review engine. | Next.js · TypeScript · Prisma |
-| **[ClearLedger](https://github.com/soumikbelel3-commits/clearledger)** | Marketing site for a fintech product, built for speed and conversion. | Next.js · TypeScript |
-| **[Sanatani Bhakti](https://github.com/soumikbelel3-commits/sanatani-bhakti)** | All-in-one Hindu devotional platform with multi-language i18n and a deliberately calm UX. | Next.js · TypeScript |
+| **[Trader Behaviour vs Sentiment](https://github.com/soumikbelel3-commits/-trader-behavior-and-performance)** | Does market mood change how traders trade? I joined 1.2M+ trades to the Fear & Greed index. The long bias rises from 48% to 67% on Greed days, and win rate falls from 54% to 47% on Fear days. | Python · SQL · Power BI |
+| **[TCS Quant Pipeline](https://github.com/soumikbelel3-commits/TCS-Quant-Trading-Guide)** | A six-stage workflow: data collection, EDA, 25+ indicators, backtests of 3 strategies, ML direction models, then VaR/CVaR and portfolio optimisation. | Python · pandas · scikit-learn · XGBoost |
+| **[Gold Pre-Session Dashboard](https://github.com/soumikbelel3-commits/gold-trading-execution)** | A multi-factor briefing that runs in about 9 seconds. It covers 50+ indicators, a walk-forward-validated ML ensemble and a 20K-path Monte Carlo simulation. | Python · pandas · scikit-learn |
+| **[AI Strategy Backtester](https://github.com/soumikbelel3-commits/ai-strategy-backtester)** | An event-driven backtest engine with no look-ahead. It reports 30+ performance metrics and includes Monte Carlo and walk-forward analysis. | TypeScript · React |
 
-Also here: [AI Strategy Backtester](https://github.com/soumikbelel3-commits/ai-strategy-backtester) ·
-[Cricbuzz Live Stats](https://github.com/soumikbelel3-commits/Cricbuzz_livestats) ·
-[Real Estate Price Prediction](https://github.com/soumikbelel3-commits/real-estate-price-prediction) ·
-[Shopper Spectrum](https://github.com/soumikbelel3-commits/shopper-spectrum) ·
-[US Airline Performance](https://github.com/soumikbelel3-commits/us-airline-performance-analysis) ·
-[FedEx Supply Chain](https://github.com/soumikbelel3-commits/Fed-Ex-Supply-Chain) ·
-[IPL Data Analysis](https://github.com/soumikbelel3-commits/IPL-Data-Analysis)
+### Where it all goes: Omni Terminal
+
+A research and analytics terminal for NSE/BSE. It applies everything above (ingestion, factor
+models, options analytics, backtesting) to the Indian market. It explains the market and never
+tells anyone what to buy. **[Take a look ↗](https://omni-terminal-nu.vercel.app)**
+
+<sub>Stack: FastAPI · TimescaleDB · PostgreSQL · Redis · VectorBT · React</sub>
+
+Other things I've built: [AI Resume Analyzer](https://github.com/soumikbelel3-commits/ai-resume-analyzer) ·
+[ClearLedger](https://github.com/soumikbelel3-commits/clearledger) ·
+[Sanatani Bhakti](https://github.com/soumikbelel3-commits/sanatani-bhakti)
 
 ---
 
@@ -83,13 +95,12 @@ Also here: [AI Strategy Backtester](https://github.com/soumikbelel3-commits/ai-s
 
 |  |  |
 | :--- | :--- |
-| **Data & modelling** | Python · SQL · pandas · NumPy · scikit-learn · statsmodels |
+| **Languages & data** | Python · SQL · pandas · NumPy · Jupyter |
+| **ML & statistics** | scikit-learn · XGBoost · statsmodels · SciPy · SHAP · MLflow |
+| **BI & reporting** | Power BI · DAX · Tableau · Excel · Streamlit · Plotly |
+| **Data stores & pipelines** | PostgreSQL · TimescaleDB · SQLite · Redis · pgvector · Docker |
 | **Quant** | VectorBT · Alphalens · PyPortfolioOpt · py_vollib · QuantLib · FinBERT |
-| **BI & reporting** | Power BI · DAX · Tableau · Excel · Jupyter |
-| **Backend** | FastAPI · Node.js · REST APIs · Celery |
-| **Frontend** | TypeScript · Next.js · React · Tailwind · TanStack Query · Zustand |
-| **Data stores** | PostgreSQL · TimescaleDB · Redis · pgvector · Prisma |
-| **Infrastructure** | Docker · Nginx · Cloudflare · Vercel · Git |
+| **App development** | FastAPI · TypeScript · Next.js · React · Tailwind |
 
 ---
 
