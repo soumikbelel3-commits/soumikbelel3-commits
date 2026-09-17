@@ -1,17 +1,18 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img alt="Soumik Belel — data analyst becoming a data scientist" src="./assets/banner-light.svg">
+  <img alt="Soumik Belel — data analyst becoming a data scientist, founder of Omni Terminal" src="./assets/banner-light.svg">
 </picture>
 
 I'm a data analyst growing into data science. I take a messy dataset and a business question and
 work through the whole analysis: SQL and Python pipelines, cleaning, EDA, statistics,
 machine-learning models, and dashboards people can make decisions from.
 
-Financial market data is the domain I know best. I'm putting all of it to work in
-**Omni Terminal**, the market-analytics platform I'm building for Indian traders.
+Financial market data is the domain I know best. I'm also the founder of
+**[Omni Terminal](https://omni-terminal-nu.vercel.app)**, a market-analytics startup for Indian traders
+that I'm building solo, from data pipeline to product.
 
-**[LinkedIn](https://www.linkedin.com/in/soumik-belel)** · **[X](https://x.com/SoumikBelel)** · **[Email](mailto:soumikbelel3@gmail.com)**
+**[LinkedIn](https://www.linkedin.com/in/soumik-belel)** · **[X](https://x.com/SoumikBelel)** · **[Email](mailto:soumikbelel3@gmail.com)** · **[Omni Terminal ↗](https://omni-terminal-nu.vercel.app)**
 
 > **Open to remote Data Analyst / Data Scientist roles**, working from Kolkata. I'm strongest with financial data, and I'm just as comfortable with general analytics and ML work. Reach me at [soumikbelel3@gmail.com](mailto:soumikbelel3@gmail.com).
 
@@ -23,6 +24,23 @@ Financial market data is the domain I know best. I'm putting all of it to work i
 | :--- | :--- | :--- |
 | **5.8M** US domestic flights | **1.2M+** crypto perpetual-futures trades | **150K+** IPL ball-by-ball deliveries |
 | **10K** bank customers | **10K+** global pharma shipments | **5K** shipments scored for disruption risk |
+
+---
+
+## Founder: Omni Terminal
+
+**[Omni Terminal](https://omni-terminal-nu.vercel.app)** is a research and analytics terminal for NSE/BSE
+retail traders that gives them the flows, positioning, option-chain structure and historical base rates
+behind a chart. I'm building it solo, and it's where my data work meets a real product with real users in mind.
+
+|  |  |
+| :--- | :--- |
+| **Data engineering** | End-of-day NSE/BSE ingestion (bhavcopy, options chains, FII/DII flows, participant OI) into a TimescaleDB time-series store |
+| **Analytics & quant** | Options-chain and open-interest analytics, factor scoring, screening and backtesting |
+| **AI layer** | FinBERT news sentiment and an AI research copilot |
+| **Ownership** | Product, architecture, pricing, SEO and compliance: it explains the market and never tells anyone what to buy |
+
+<sub>Stack: Python · FastAPI · PostgreSQL · TimescaleDB · Redis · VectorBT · py_vollib · React · Next.js</sub>
 
 ---
 
@@ -76,14 +94,6 @@ direction at roughly coin-flip accuracy, and that result is in the write-up.
 | **[TCS Quant Pipeline](https://github.com/soumikbelel3-commits/TCS-Quant-Trading-Guide)** | A six-stage workflow: data collection, EDA, 25+ indicators, backtests of 3 strategies, ML direction models, then VaR/CVaR and portfolio optimisation. | Python · pandas · scikit-learn · XGBoost |
 | **[Gold Pre-Session Dashboard](https://github.com/soumikbelel3-commits/gold-trading-execution)** | A multi-factor briefing that runs in about 9 seconds. It covers 50+ indicators, a walk-forward-validated ML ensemble and a 20K-path Monte Carlo simulation. | Python · pandas · scikit-learn |
 | **[AI Strategy Backtester](https://github.com/soumikbelel3-commits/ai-strategy-backtester)** | An event-driven backtest engine with no look-ahead. It reports 30+ performance metrics and includes Monte Carlo and walk-forward analysis. | TypeScript · React |
-
-### Where it all goes: Omni Terminal
-
-A research and analytics terminal for NSE/BSE. It applies everything above (ingestion, factor
-models, options analytics, backtesting) to the Indian market. It explains the market and never
-tells anyone what to buy. **[Take a look ↗](https://omni-terminal-nu.vercel.app)**
-
-<sub>Stack: FastAPI · TimescaleDB · PostgreSQL · Redis · VectorBT · React</sub>
 
 Other things I've built: [AI Resume Analyzer](https://github.com/soumikbelel3-commits/ai-resume-analyzer) ·
 [ClearLedger](https://github.com/soumikbelel3-commits/clearledger) ·
